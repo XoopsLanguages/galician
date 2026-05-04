@@ -1,0 +1,35 @@
+{
+  "language": "galician",
+  "code": "gl",
+  "name": "Galician",
+  "nativeName": "Galego",
+  "rtl": false,
+  "maintainers": [
+    "XoopsLanguages Team"
+  ],
+  "core": {
+    "2.0.16_iso8859-1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/galician/releases/download/latest/galician-core-2.0.16_iso8859-1.zip"
+    },
+    "2.0.18.1_iso8859-1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/galician/releases/download/latest/galician-core-2.0.18.1_iso8859-1.zip"
+    },
+    "2.3.2_iso8859-1": {
+      "lifecycle": "eol",
+      "download": "https://github.com/XoopsLanguages/galician/releases/download/latest/galician-core-2.3.2_iso8859-1.zip"
+    },
+    "2.7.0": {
+      "lifecycle": "active",
+      "coverage": 98.2,
+      "provided": 3042,
+      "required": 3098,
+      "updated": "2026-05-04",
+      "download": "https://github.com/XoopsLanguages/galician/releases/download/latest/galician-core-2.7.0.zip",
+      "manifest_url": "https://raw.githubusercontent.com/XoopsLanguages/galician/master/manifest.json"
+    }
+  },
+  "modules": {},
+  "themes": {}
+}
