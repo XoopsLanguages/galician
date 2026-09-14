@@ -1,0 +1,37 @@
+<div class="outer" id="help-template">
+<h1 class="head">Axuda: Modelos</h1>
+<h4 class="odd">Descrición</h4>
+<p class="even">
+        XOOPS permite algunha separación entre a presentación real do sitio (o “<em>pel</em>” ou interface de usuario) e o código que se executa na parte traseira. O primeiro é xestionado por un mecanismo sofisticado baseado en temas gráficos. Un tema pode incluír, na súa forma básica, o HTML esencial.
+        modelos que definen a interface visual do sitio, así como as follas de estilo e imaxes necesarias para complementar esa interface visual. Os temas son cambiables na interface administrativa, polo que cambiar a aparencia completa dun sitio XOOPS é só cuestión de cambiar o valor dun
+        selector e premendo en "Aceptar". XOOPS tamén ofrece aos administradores do sitio a posibilidade de que os usuarios elixan entre algúns temas dispoñibles.<br/><br/>
+
+        En xeral, a <strong><em>theme</em></strong> é o marco visual de alto nivel dun sitio: o tema define, por exemplo, o deseño xeral do sitio; por outra banda, non adoita definir a distribución específica dos contidos dentro dun bloque. Isto é xestionado por a
+        entidade diferente chamada a <em><strong>conxunto de modelos</strong></em>. Un conxunto de modelos<em> </em>é un conxunto de modelos HTML que definen a presentación do contido dentro de todos os bloques que forman un sitio web de XOOPS. Se queremos unha metáfora máis clara para isto, poderiamos dicir que o tema é como
+        o arquitecto dunha casa, mentres que o conxunto de modelos é como o decorador de interiores. O primeiro pon os muros e define a distribución xeral, pero é o segundo quen se encarga de “<em>vestindo</em>” esas paredes.<br/><br/>
+
+        Se o tema activo é sinxelo que só inclúe un ficheiro de tema, ficheiros CSS e algunhas imaxes, XOOPS emprega o conxunto de modelos predeterminados para definir a presentación dos bloques. Non obstante, algúns temas complexos son o suficientemente sofisticados como para incluír o seu propio conxunto de modelos. Neste caso, o sitio
+        o administrador debe usar a interface administrativa para configurar tanto o tema como o conxunto de modelos. <br/><br/>
+
+        Como é o tema <em>maxia
+Tema</em> logrado? É dicir, como poden os modelos HTML incluír contido dinámico? Isto non se fai con espellos e fume, senón cun intelixente motor de modelos chamado
+        <strong><a href="https://www.smarty.net/" rel="external">Intelixente</a></strong> que fai a función do que antes se chamaba
+        <em><strong>interpolación variable</strong></em>. Expresado dun xeito sinxelo, poderiamos dicir que o sistema XOOPS utiliza ficheiros PHP para albergar a lóxica dos módulos (acceso á base de datos, asignación de variables, xestión de dereitos...), ficheiros HTML con variables Smarty inseridas para xestionar o
+        interface visual real e o motor Smarty para inserir valores e cadeas en lugares específicos dentro do HTML que constrúe as páxinas vistas polo usuario final. Con todo, o que isto significa para ti pódese resumir facilmente: grazas ao seu sistema de temática, XOOPS permite aos deseñadores de sitios crear máis
+        sitios interesantes e visualmente abraiantes sen moita preocupación polo que ocorre baixo o capó.
+    </p>
+<h4 class="odd">Clonación e descarga de conxuntos de modelos</h4>
+<p class="even">
+        Se desexa crear un conxunto de modelos personalizados, pode facer unha copia do conxunto predeterminado (ou calquera outro) seleccionando o<em>clon</em>’ (solicitarase que lle dea un nome ao novo conxunto). A diferenza do predeterminado, outros conxuntos de modelos pódense editar libremente. Tamén pode gardar unha copia de a
+        o modelo configurado no disco seleccionando o<em>descargar</em>’ ou elimínaa co ‘<em>eliminar</em>. Ás veces tamén podes ver un "<em>Xerar</em>’ xunto aos novos módulos para os que aínda non se crearon modelos.
+    </p>
+<h4 class="odd">Editando modelos</h4>
+<p class="even">
+        Podes ver unha lista completa de modelos dispoñibles navegando pola árbore de directorios. Cando seleccione un modelo, XOOPS abrirao nun editor onde pode editalo. <br/><br/>
+
+        Durante a edición de modelos, debes activar unha preferencia que actualice automaticamente os ficheiros .tpl de modelos de módulo se hai ficheiros máis novos no directorio temas/o teu tema/modelos para o tema actual (Módulo do sistema -&gt; Preferencias -&gt; Configuración xeral -&gt; Actualizar ficheiros .tpl do modelo do módulo).
+        desde temas/o teu tema/directorio de modelos? -&gt; '<em>Si</em>’). Isto debería desactivarse unha vez que o sitio se faga público.<br/><br/>
+        Se estragas un modelo accidentalmente, non esquezas que podes recuperar un "<em>ben</em>’ copiar desde o conxunto de modelos predeterminado. Se está a traballar con modelos non estándar, pode ser unha boa idea gardar unha copia no disco antes de comezar a modificalos.
+
+    </p>
+</div>

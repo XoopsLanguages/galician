@@ -1,0 +1,85 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    gl
+ * _CHARSET     UTF-8
+ */
+define('_MI_SYSTEM_NAME', 'Sistema');
+define('_MI_SYSTEM_DESC', 'Para a administración da configuración básica do sitio.');
+define('_MI_SYSTEM_BNAME2', 'Menú de usuario');
+define('_MI_SYSTEM_BNAME3', 'Iniciar sesión');
+define('_MI_SYSTEM_BNAME4', 'Buscar');
+define('_MI_SYSTEM_BNAME5', 'Contidos pendentes');
+define('_MI_SYSTEM_BNAME6', 'Menú principal');
+define('_MI_SYSTEM_BNAME7', 'Información do sitio');
+define('_MI_SYSTEM_BNAME8', 'Quen está en liña');
+define('_MI_SYSTEM_BNAME9', 'Principais publicadores');
+define('_MI_SYSTEM_BNAME10', 'Novos membros');
+define('_MI_SYSTEM_BNAME11', 'Comentarios recentes');
+define('_MI_SYSTEM_BNAME12', 'Opcións de notificación');
+define('_MI_SYSTEM_BNAME13', 'Temas');
+define('_MI_SYSTEM_ADMENU1', 'Bandeiras');
+define('_MI_SYSTEM_ADMENU2', 'Bloques');
+define('_MI_SYSTEM_ADMENU3', 'Grupos');
+define('_MI_SYSTEM_ADMENU5', 'Módulos');
+define('_MI_SYSTEM_ADMENU6', 'Preferencias');
+define('_MI_SYSTEM_ADMENU7', 'Emoticonos');
+define('_MI_SYSTEM_ADMENU9', 'Rangos de usuario');
+define('_MI_SYSTEM_ADMENU10', 'Editar usuario');
+define('_MI_SYSTEM_ADMENU11', 'Enviar email a usuarios');
+define('_MI_SYSTEM_ADMENU12', 'Buscar usuarios');
+define('_MI_SYSTEM_ADMENU13', 'Imaxes');
+define('_MI_SYSTEM_ADMENU14', 'Avatares');
+define('_MI_SYSTEM_ADMENU15', 'Modelos');
+define('_MI_SYSTEM_ADMENU16', 'Comentarios');
+define('_MI_SYSTEM_PREFERENCE_BREAK_GENERAL', 'Configuración xeral');
+define('_MI_SYSTEM_PREFERENCE_TIPS', 'Axuda en liña?');
+define('_MI_SYSTEM_PREFERENCE_TIPS_DSC', 'Isto dáche consellos e axuda en liña');
+define('_MI_SYSTEM_PREFERENCE_ICONS', 'Iconas');
+define('_MI_SYSTEM_PREFERENCE_BREADCRUMB', 'Miga de pan');
+define('_MI_SYSTEM_PREFERENCE_BREAK_ACTIVE', 'Sección activa');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_AVATARS', 'Avatares activos');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BANNERS', 'Banners activos');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BLOCKSADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_COMMENTS', 'Comentarios activos');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_FILEMANAGER', 'Xestor de ficheiros activo');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_GROUPS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_IMAGES', 'Xestor de imaxes activas');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAILUSERS', 'Usuarios de correo electrónico activos');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MODULESADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_PREFERENCES', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_SMILIES', 'Smilies activos');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_TPLSETS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERRANK', 'Clasificacións de usuarios activas');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERS', 'Usuarios activos');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAINTENANCE', 'Mantemento activo');
+define('_MI_SYSTEM_PREFERENCE_BREAK_PAGER', 'Número de filas a mostrar na administración');
+define('_MI_SYSTEM_PREFERENCE_AVATARS_PAGER', 'Número de avatares para mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_BANNERS_PAGER', 'Número de banners para mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_PAGER', 'Número de comentarios a mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_GROUPS_PAGER', 'Número de grupos a mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_IMAGES_PAGER', 'Número de imaxes a mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_SMILIES_PAGER', 'Número de emoticonos para mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_USERRANKS_PAGER', 'Número de clasificacións a mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_USERS_PAGER', 'Número de usuarios a mostrar por páxina');
+define('_MI_SYSTEM_PREFERENCE_BREAK_EDITOR', 'Configuración do editor');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR', 'Editor para bloques:');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR', 'Editor para comentarios:');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR', 'Editor para todos os módulos:');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_ANONPOST', '');
+define('_MI_SYSTEM_PREFERENCE_REDIRECT', '');
+define('_MI_SYSTEM_PREFERENCE_JQUERY_THEME', 'Tema jQuery');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE', 'Desactivar temporalmente');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL', 'Correo electrónico');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_PM', 'Mensaxe privada');
+define('_MI_SYSTEM_MENUS_ACTIVE', 'Activar o sistema de menús');
+define('_MI_SYSTEM_MENUS_ACTIVE_DESC', 'Activa o sistema de xestión de menús integrado para a navegación polo sitio');
+
+//2.8.0
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_LANGUAGES', 'Activar a administración de idiomas');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_LANGUAGES_DESC', 'Xestione o rexistro de configuracións rexionais, os paquetes de idioma, as comprobacións de estado e as substitucións de tradución do sitio.');
+define('_MI_SYSTEM_BNAME14', 'Selector de idioma');

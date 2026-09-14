@@ -1,0 +1,164 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    gl
+ * _CHARSET     UTF-8
+ */
+define('_AM_SYSTEM_MODULES_ADMIN', 'Administración de módulos XOOPS');
+define('_AM_SYSTEM_MODULES_LIST', 'Lista de módulos');
+define('_AM_SYSTEM_MODULES_TOINSTALL', 'Instalar módulo');
+define('_AM_SYSTEM_MODULES_VALIDATE', 'Validar cambios');
+define('_AM_SYSTEM_MODULES_SUBMITRES', 'Enviar resultado');
+define('_AM_SYSTEM_MODULES_RUSUREINS', 'Preme o botón de abaixo para instalar este módulo');
+define('_AM_SYSTEM_MODULES_RUSUREUNINS', 'Tes a certeza de desinstalar este módulo?');
+define('_AM_SYSTEM_MODULES_RUSUREUPD', 'Preme o botón de abaixo para actualizar este módulo');
+define('_AM_SYSTEM_MODULES_BTOMADMIN', 'Administración de módulos XOOPS');
+define('_AM_SYSTEM_MODULES_INSTALLING', 'Instalando ');
+define('_AM_SYSTEM_MODULES_DEACTIVATE', 'Desactivar ');
+define('_AM_SYSTEM_MODULES_ACTIVATE', 'Activar ');
+define('_AM_SYSTEM_MODULES_UPDATING', 'Actualizando ');
+define('_AM_SYSTEM_MODULES_INSTALL', 'Instalar');
+define('_AM_SYSTEM_MODULES_UNINSTALL', 'Desinstalar');
+define('_AM_SYSTEM_MODULES_UPDATE', 'Actualizar');
+define('_AM_SYSTEM_MODULES_VIEWLARGE', 'Vista grande');
+define('_AM_SYSTEM_MODULES_VIEWLINE', 'Vista de liña');
+define('_AM_SYSTEM_MODULES_FAILINS', 'Non se pode instalar %s.');
+define('_AM_SYSTEM_MODULES_FAILACT', 'Non se puido activar %s.');
+define('_AM_SYSTEM_MODULES_FAILDEACT', 'Non se puido desactivar %s.');
+define('_AM_SYSTEM_MODULES_FAILUPD', 'Non se puido actualizar %s.');
+define('_AM_SYSTEM_MODULES_FAILUNINS', 'Non se pode desinstalar %s.');
+define('_AM_SYSTEM_MODULES_FAILORDER', 'Non se puido reordenar %s.');
+define('_AM_SYSTEM_MODULES_FAILWRITE', 'Non se pode escribir no menú principal.');
+define('_AM_SYSTEM_MODULES_ALEXISTS', 'O módulo %s xa existe.');
+define('_AM_SYSTEM_MODULES_OKINS', 'O módulo %s instalouse correctamente.');
+define('_AM_SYSTEM_MODULES_OKACT', 'O módulo %s activouse correctamente.');
+define('_AM_SYSTEM_MODULES_OKDEACT', 'O módulo %s desactivouse correctamente.');
+define('_AM_SYSTEM_MODULES_OKUPD', 'O módulo %s actualizouse correctamente.');
+define('_AM_SYSTEM_MODULES_OKUNINS', 'O módulo %s desinstalouse correctamente.');
+define('_AM_SYSTEM_MODULES_OKORDER', 'O módulo %s cambiouse correctamente.');
+define('_AM_SYSTEM_MODULES_MODULE', 'Módulo');
+define('_AM_SYSTEM_MODULES_VERSION', 'Versión');
+define('_AM_SYSTEM_MODULES_LASTUP', 'Última actualización');
+define('_AM_SYSTEM_MODULES_DEACTIVATED', 'Desactivado');
+define('_AM_SYSTEM_MODULES_ACTION', 'Acción');
+define('_AM_SYSTEM_MODULES_MENU', 'Menú');
+define('_AM_SYSTEM_MODULES_HIDE', 'Ocultar');
+define('_AM_SYSTEM_MODULES_SHOW', 'Mostrar');
+define('_AM_SYSTEM_MODULES_DUPEN', 'Entrada duplicada na táboa de módulos!');
+define('_AM_SYSTEM_MODULES_DEACTED', 'O módulo seleccionado foi desactivado. Agora pode desinstalar o módulo con seguridade.');
+define('_AM_SYSTEM_MODULES_ACTED', 'O módulo seleccionado foi activado!');
+define('_AM_SYSTEM_MODULES_UPDTED', 'O módulo seleccionado foi actualizado!');
+define('_AM_SYSTEM_MODULES_SYSNO', 'O módulo do sistema non pode ser desactivado.');
+define('_AM_SYSTEM_MODULES_STRTNO', 'Este módulo está definido como a túa páxina de inicio predeterminada. Cambia o módulo de inicio polo que se adapte ás túas preferencias.');
+define('_AM_SYSTEM_MODULES_ORDER', 'Orde');
+define('_AM_SYSTEM_MODULES_ACTIVE', 'Activo');
+define('_AM_SYSTEM_MODULES_INACTIVE', 'Inactivo');
+define('_AM_SYSTEM_MODULES_NOTINSTALLED', 'Non instalado');
+define('_AM_SYSTEM_MODULES_NOCHANGE', 'Sen cambios');
+define('_AM_SYSTEM_MODULES_SUBMIT', 'Enviar');
+define('_AM_SYSTEM_MODULES_CANCEL', 'Cancelar');
+define('_AM_SYSTEM_MODULES_DBUPDATE', _AM_SYSTEM_DBUPDATED);
+define('_AM_SYSTEM_MODULES_NEWBLKS', 'New Blocks');
+define('_AM_SYSTEM_MODULES_DEPREBLKS', 'Bloques obsoletos');
+define('_AM_SYSTEM_MODULES_TABLE_RESERVED', '%s é unha mesa reservada!');
+define('_AM_SYSTEM_MODULES_CREATE_TABLES', 'Creando táboas...');
+define('_AM_SYSTEM_MODULES_TABLE_CREATED', 'Creouse a táboa %s');
+define('_AM_SYSTEM_MODULES_INSERT_DATA', '&nbsp;&nbsp; Datos inseridos na táboa %s');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_FAILD', 'Non se puido inserir %s na base de datos.');
+define('_AM_SYSTEM_MODULES_INSERT_DATA_DONE', 'Os datos do módulo inseríronse correctamente.');
+define('_AM_SYSTEM_MODULES_MODULEID', 'ID do módulo: %s');
+define('_AM_SYSTEM_MODULES_SQL_FOUND', 'Atopouse o ficheiro SQL en %s');
+define('_AM_SYSTEM_MODULES_SQL_NOT_FOUND', 'Non se atopou o ficheiro SQL en %s');
+define('_AM_SYSTEM_MODULES_SQL_NOT_CREATE', 'ERRO: non se puido crear %s');
+define('_AM_SYSTEM_MODULES_SQL_NOT_VALID', '%s non é un SQL válido!');
+define('_AM_SYSTEM_MODULES_GROUP_ID', 'ID do grupo: %s');
+define('_AM_SYSTEM_MODULES_NAME', 'Nome:');
+define('_AM_SYSTEM_MODULES_VALUE', 'Valor:');
+define('_AM_SYSTEM_MODULES_TEMPLATES_ADD', 'Engadindo modelos...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_DELETE', 'Eliminando modelos...');
+define('_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', 'Actualizando modelos...');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ID', 'ID do modelo: %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', 'Engadiuse o modelo %s á base de datos');
+define('_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'ERRO: non se puido inserir o modelo %s na base de datos.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'Compilouse o modelo %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'ERRO: Produciuse un erro ao compilar o modelo %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', 'Eliminouse o modelo %s da base de datos.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', 'ERRO: non se puido eliminar o modelo %s da base de datos.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', 'Inseriuse o modelo %s na base de datos.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE', 'O modelo %s recompilouse');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD', 'ERRO: fallou a recompilación do modelo %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR', 'ERRO: non se puido recompilar o modelo %s');
+define('_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR', 'ERRO: non se puido eliminar o modelo antigo %s. Abortando a actualización deste ficheiro.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE', 'Actualizouse o modelo %s.');
+define('_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR', 'ERRO: non se puido actualizar o modelo %s.');
+define('_AM_SYSTEM_MODULES_BLOCKS_ADD', 'Engadindo bloques...');
+define('_AM_SYSTEM_MODULES_BLOCKS_DELETE', 'Eliminando bloque...');
+define('_AM_SYSTEM_MODULES_BLOCKS_REBUILD', 'Reconstruíndo bloques...');
+define('_AM_SYSTEM_MODULES_BLOCK_ID', 'ID do bloque: %s');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', 'Engadiuse o dereito de acceso ao bloqueo');
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'ERRO: Non se puido engadir o dereito de acceso de bloqueo');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD', 'Engadiuse o bloque %s');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', 'ERRO: Non se puido engadir o bloque %s á base de datos!');
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', 'Erro na base de datos: %s');
+define('_AM_SYSTEM_MODULES_BLOCK_CREATED', 'Creouse o bloque %s');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE', 'Eliminouse o bloque %s.');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', 'Eliminouse o modelo de bloque %s da base de datos.');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', 'ERRO: non se puido eliminar o bloque %s');
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', 'ERRO: non se puido eliminar o modelo de bloque %s da base de datos');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED', 'O modelo de bloque %s está obsoleto');
+define('_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR', 'ERRO: non se puido eliminar o modelo de bloqueo obsoleto.');
+define('_AM_SYSTEM_MODULES_BLOCK_UPDATE', 'Bloque %s actualizado.');
+define('_AM_SYSTEM_MODULES_GONFIG_ID', 'ID de configuración: %s');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_ADD', 'Engadindo datos de configuración do módulo...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_DELETE', 'Eliminando as opcións de configuración do módulo...');
+define('_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE', 'Datos do módulo actualizados.');
+define('_AM_SYSTEM_MODULES_CONFIG_ADD', 'Engadiuse a opción de configuración');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD', 'Engadiuse a configuración %s á base de datos');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR', 'ERRO: non se puido inserir a configuración %s na base de datos.');
+define('_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE', 'Os datos de configuración foron eliminados da base de datos.');
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR', 'ERRO: Non se puideron eliminar os datos de configuración da base de datos');
+define('_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD', 'Configurando dereitos de grupo...');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR', 'ERRO: Non se puideron eliminar os permisos do grupo');
+define('_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED', 'Elimináronse os permisos do grupo');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD', 'Engadido dereito de acceso de administrador para o ID do grupo %s');
+define('_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR', 'ERRO: non se puido engadir o dereito de acceso de administrador para o ID do grupo %s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD', 'Engadido dereito de acceso de usuario para o ID do grupo: %s');
+define('_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR', 'ERRO: non se puido engadir o dereito de acceso de usuario para o ID do grupo: %s');
+define('_AM_SYSTEM_MODULES_FAILED_EXECUTE', 'Produciuse un erro ao executar %s');
+define('_AM_SYSTEM_MODULES_FAILED_SUCESS', '%s executouse correctamente.');
+define('_AM_SYSTEM_MODULES_DELETE_ERROR', 'ERRO: non se puido eliminar %s');
+define('_AM_SYSTEM_MODULES_UPDATE_ERROR', 'ERRO: non se puido actualizar %s');
+define('_AM_SYSTEM_MODULES_DELETE_MOD_TABLES', 'Eliminando táboas do módulo...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE', 'Eliminando comentarios...');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR', 'ERRO: non se puideron eliminar os comentarios');
+define('_AM_SYSTEM_MODULES_COMMENTS_DELETED', 'Comentarios eliminados');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE', 'Eliminando notificacións...');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR', 'ERRO: non se puideron eliminar as notificacións');
+define('_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED', 'Notificacións eliminadas');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED', 'Cayó a táboa %s!');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR', 'ERRO: non se puido soltar a táboa %s');
+define('_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', 'ERRO: Non se permite soltar a táboa %s !');
+define('_AM_SYSTEM_MODULES_CONFIRM_TIPS', '<ul>
+<li>Comprobe todas as modificacións para validalas.</li>
+</ul>');
+define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA', 'Engadir datos de proba');
+define('_AM_SYSTEM_MODULES_INSTALL_MORE', 'Instalar máis módulos');
+define('_AM_SYSTEM_MODULES_INSTALL_THISMODULE', 'O admin deste módulo');
+define('_AM_SYSTEM_MODULES_FK_DISABLE', 'Produciuse un erro ao desactivar as comprobacións de chave estranxeira');
+define('_AM_SYSTEM_MODULES_FK_ENABLE', 'Produciuse un erro ao activar as comprobacións de chave estranxeira');
+define('_AM_SYSTEM_MODULES_DROP_FAIL', 'Produciuse un erro ao soltar a táboa: %s');
+define('_AM_SYSTEM_MODULES_DROP_OK', 'Táboa eliminada: %s');
+
+//2.7.1 backfilled translations
+define('_AM_SYSTEM_MODULES_TIPS', '<ul>
+<li>Se instala un módulo novo, lembre configurar as preferencias do módulo, os bloques e os permisos dos usuarios!</li>
+<li>Para agochar un módulo no bloque do Menú principal, estableza a orde a 0.</li>
+<li>Elimine do servidor os ficheiros de módulos sen usar para evitar problemas de seguranza e manter o sitio seguro.</li>
+<li>Para cambiar a orde dos módulos (que se reflectirá no menú), só ten que arrastrar e soltar os módulos á posición desexada.</li>
+</ul>');
+define('_AM_SYSTEM_MODULES_ORDER0', '(0 = agochar)');
+define('_AM_SYSTEM_MODULES_ERRORSC', 'Erro(s):');
+define('_AM_SYSTEM_MODULES_LISTUPBLKS', 'Os seguintes bloques actualizaranse.<br>Seleccione os bloques cuxo contido (modelo e opcións) pode sobrescribirse.<br>');
+//2.7.1
+define('_AM_SYSTEM_MODULES_CONFIG_DATA_INVALID', ' ERROR: Skipped malformed config entry %s. ');
